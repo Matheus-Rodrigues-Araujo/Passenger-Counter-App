@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #5a0656, rgb(255, 21, 0));
+    /* background-image: linear-gradient(to right, #e027d7, rgb(0, 0, 0)); */
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+button{
+    width: 200px;
+    color: white;
+    margin-left: 580px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    /* background-color: darkcyan; */
+    border-radius: 10px;
+}
+
+#increment-btn{
+    background-color: rgb(21, 138, 27);
+    
+}
+#increment-btn:hover{
+    background-color: rgb(0, 255, 13);
+}
+
+#decrement-btn{
+    background-color: rgb(0, 89, 255);
+
+}
+
+#decrement-btn:hover{
+    background-color: #ff0000;
+}
