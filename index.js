@@ -12,6 +12,8 @@ function increment(){
 }
 // Decrement the value
 function decrement(){
-    count--
-    countEl.innerText = count
+    if(count >0){
+        count--
+        countEl.innerText = count
+    }
 }
