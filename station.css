@@ -20,6 +20,25 @@ h2{
     font-size: 50px;
 }
 
+#save-data{
+    background-color: orangered;
+    color: white;
+}
+
+#save-data:hover{
+    /* background-image: linear-gradient(to right, #5a0656, rgb(255, 21, 0));*/
+    background-color: rgb(255, 175, 4);
+    
+}
+
+h3{
+    display:none;
+    margin-top: 15px;
+    color: blanchedalmond;
+    font-size: 25px;
+    text-align: center;
+}
+
 button{
     width: 200px;
     color: white;
@@ -27,7 +46,6 @@ button{
     font-size: 20px;
     margin-top: 10px;
     padding: 20px;
-    /* background-color: darkcyan; */
     border-radius: 10px;
 }
 
@@ -46,4 +64,13 @@ button{
 
 #decrement-btn:hover{
     background-color: #ff0000;
+}
+
+#reset-btn{
+    background: rgb(81, 0, 148);
+}
+
+#reset-btn:hover{
+    background: rgb(122, 9, 214);
+
 }
