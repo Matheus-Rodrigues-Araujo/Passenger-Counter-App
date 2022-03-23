@@ -9,18 +9,25 @@
     <title>My Counter App</title>
 </head>
 <body>
-    <h1>People who entered</h1>
-    <!-- the value of the element 'h2' will be taken through id='counter-el',
-    and then increment and decrement through functions
-    -->
-    <h2 id="count-el">0</h2>
+        <h1>People who entered</h1>
+        <!-- the value of the element 'h2' will be taken through id='counter-el',
+        and then increment and decrement through functions
+        -->
+        <h2 id="count-el">0</h2>
 
-    <!-- Buttons for incrementation and decrementation -->
-    
-    <!-- Increment -->
-    <button id="increment-btn" onclick="increment()">Increment</button>
-    <!-- Decrement -->
-    <button id="decrement-btn" onclick="decrement()">Decrement</button>
+        <!-- Buttons for incrementation and decrementation -->
+        
+        <!-- Increment -->
+        <div class="the-buttons">
+            <button id="increment-btn" onclick="increment()">Increment</button>
+            <!-- Decrement -->
+            <button id="decrement-btn" onclick="decrement()">Decrement</button>
+
+            <button id="reset-btn" onclick="reset()">Reset</button>
+
+            <button id="save-data" onclick="saveQuantity()">Save</button>
+            <h3 id='displayData'>Previous entries: </h3>
+        </div>
     
     <!-- link to the javascript file -->
     <script src="index.js"></script>
